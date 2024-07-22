@@ -1,0 +1,101 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .collection-list1 {
+    display: flex;
+    justify-content: center; /* Menengahkan konten secara horizontal */
+    align-items: center; /* Menengahkan konten secara vertikal */
+  }
+  
+  .product-no-products {
+    text-align: center; /* Memastikan teks berada di tengah */
+    font-family: 'Libre Baskerville', serif; /* Menggunakan font Libre Baskerville */
+    font-size: 24px; /* Ukuran font */
+    color: #b81616; /* Warna merah tua */
+    text-shadow: 1px 1px 1px #000; /* Efek stroke warna hitam */
+  }
+  
+  
+  .collection-admin1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-title3 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .collection-box1 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .collection-box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .title-button-box {
+    margin-top: 10px;
+  }
+  
+  .title-go {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .koleksi-go {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    list-style-type: none;
+    margin-right: 5px;
+  }
+  .text-center.mb-4 {
+    font-family: 'Libre Baskerville', serif; /* Menggunakan font Libre Baskerville */
+    font-size: 70px; /* Ukuran font lebih besar */
+    color: #b81616; /* Warna merah tua */
+    text-align: center; /* Posisi teks menjadi tengah */
+    text-shadow: 1px 1px 1px #000; /* Efek stroke warna hitam */
+  }
+  .pagination li button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination li button:hover,
+  .pagination li button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  

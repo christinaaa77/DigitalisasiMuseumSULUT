@@ -1,0 +1,172 @@
+/* Ulasan Container */
+.ulasan-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.center-ulasan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Total Rating */
+.total-rating {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Rating Stars */
+.rating-stars {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.rating-stars span {
+  font-size: 24px;
+  color: #c4c4c4; /* Warna default bintang */
+  margin: 0 5px;
+}
+
+.rating-stars span.filled {
+  color: #ffcc00; /* Warna kuning untuk bintang diisi */
+}
+
+/* Add Ulasan Form */
+.add-ulasan-form-container {
+  flex: 1;
+  margin-bottom: 20px;
+  background-image: url("/src/assets/coba.jpg");
+  background-size: cover;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.add-ulasan-form-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+
+}
+
+.add-ulasan-form-container form .form-group {
+  margin-bottom: 15px;
+  
+}
+
+.add-ulasan-form-container form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+
+.add-ulasan-form-container form .form-group .rating-stars {
+  margin-top: 5px;
+}
+
+.add-ulasan-form-container form .form-group .rating-stars span {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px  1px 0 #000,
+                1px  1px 0 #000; /* Tambahkan stroke pada bintang */
+}
+
+.add-ulasan-form-container form .form-group .rating-stars span.filled {
+  color: gold;
+}
+
+.add-ulasan-form-container form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-ulasan-form-container form .form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-ulasan-form-container form .form-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Daftar Ulasan */
+.ulasan-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ulasan-list li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.ulasan-list li strong {
+  font-weight: bold;
+}
+
+.ulasan-list li p {
+  margin: 5px 0;
+}
+
+/* Ulasan Pengguna */
+.ulasan-pengguna {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e60a0a;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: filter 0.3s;
+}
+
+/* Tambahkan CSS untuk daftar ulasan */
+.ulasan-list {
+  margin-top: 20px;
+}
+
+/* CSS untuk bintang */
+.star {
+  color: grey; /* Warna default bintang */
+}
+
+.star.filled {
+  color: yellow; /* Warna kuning */
+}
+.show-more-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.show-more-button:hover {
+  background-color: #0056b3;
+}

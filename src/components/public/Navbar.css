@@ -1,0 +1,121 @@
+/* Navbar Styling */
+.navbar-position.container {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Pastikan container menggunakan seluruh lebar layar */
+  max-width: none;
+}
+
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E60A0A;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px; /* Menambahkan padding untuk memberikan jarak */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Menambahkan margin kanan pada gambar */
+}
+
+.navbar-expand-lg {
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.navbar-collapse.collapse {
+  justify-content: flex-end; /* Memposisikan konten navbar di sebelah kanan */
+}
+
+.navbar-nav {
+  margin-right: 20px; /* Menambahkan margin-right agar menu tidak terlalu dekat dengan navbar-brand */
+}
+
+.nav-link {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: white;
+}
+
+a.download {
+  color: #227afe;
+  -webkit-text-stroke: 0.2px #000000;
+  font-family: 'Libre Baskerville', serif;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+/* Untuk ponsel */
+@media only screen and (max-width: 767px) {
+  .nav-link {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    background-color: #e60a0a;
+    padding: 15px 20px;
+  }
+
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 80%);
+    transition: opacity 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .nav-link:hover::before {
+    opacity: 1;
+  }
+
+  .nav-link:hover {
+    background-color: #d40909;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    margin-right: 5px;
+  }
+
+  .d-inline-block {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: white;
+  }
+
+  a.download {
+    color: #ffffff;
+  }
+}

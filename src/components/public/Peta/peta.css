@@ -1,0 +1,220 @@
+.container-peta{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.carousel {
+  position: relative;
+}
+
+.foto-waruga {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.05);
+  border-color: #6A0dad;
+}
+
+.waruga-name {
+  color: #E60A0A;
+  text-align: center;
+  margin: 10px auto 30px auto; /* Menyesuaikan margin atas dan bawah */
+  text-decoration: none;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.793);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.waruganame {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.isi-waruga {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.waruga-slider {
+  max-width: 100%;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+
+
+.heading-name {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.purple {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+  text-decoration-color: #ffffff;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  color: #E60A0A;
+}
+
+
+#map {
+  height: 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.popup-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-image:hover {
+  transform: scale(1.1);
+}
+
+.title-button-box {
+  padding: 10px;
+}
+
+.title-button-box h4 {
+  margin-bottom: 10px;
+}
+
+.title-button-box a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.title-button-box a:hover {
+  text-decoration: underline;
+}
+.page-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  color: #e60a0a;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.786);
+  -webkit-text-stroke: 0.5px #000000;
+  animation: motionEffect 2s ease-out;
+}
+.range-content{
+  padding: 20px;
+}
+.page-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(242, 0, 0), #ffffff);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation: revealFromRight 2s ease-out;
+}
+.popup-content {
+  max-width: 300px; /* Atur lebar maksimum popup content sesuai kebutuhan */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 
+              0 0 0 1px rgba(255, 255, 255, 0.5), 
+              0 0 10px 3px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+.popup-image {
+  width: 100%;
+  height: auto; /* Menggunakan height auto agar gambar dapat menyesuaikan proporsinya */
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.popup-text {
+  margin-top: 10px;
+}
+
+.popup-text h4 {
+  margin-bottom: 5px;
+}
+
+.popup-text p {
+  margin-bottom: 10px;
+}
+
+.popup-text a {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup-text a:hover {
+  text-decoration: underline;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-image: url("/src/assets/prfl.jpg");
+  background-size: cover; /* Menyesuaikan ukuran latar belakang untuk menutupi seluruh area popup */
+}
+
+
+
+@keyframes motionEffect {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes revealFromRight {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}

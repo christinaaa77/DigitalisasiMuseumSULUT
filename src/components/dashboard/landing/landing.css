@@ -1,0 +1,18 @@
+.content-auth {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    padding: 40px; /* Padding di sekitar konten */
+    border-radius: 10px; /* Sudut border */
+  }
+  
+  .content-auth h3 {
+    margin-bottom: 20px; /* Jarak antara judul dan paragraf pertama */
+  }
+  
+  .content-auth p {
+    margin-bottom: 15px; /* Jarak antara paragraf */
+  }
+  
+  .content-auth .btn {
+    margin-right: 10px; /* Jarak antara tombol */
+  }
+  

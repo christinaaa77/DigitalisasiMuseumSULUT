@@ -1,0 +1,74 @@
+
+.container-koleksi3d{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.collection {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.collection-box {
+  overflow: hidden;
+  height: 200px;
+}
+
+.collection-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-button-box {
+  padding: 15px;
+}
+
+.title-go {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-go h2 {
+  margin: 0;
+}
+
+.koleksi-go {
+  width: 30px;
+  height: 30px;
+}
+
+.product-no-products {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background-color: #e9e9e9;
+}

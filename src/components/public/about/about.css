@@ -1,0 +1,171 @@
+/* About*/
+.container-about{
+  display: flex;
+  flex-direction: column;
+}
+.isi-content{
+  padding: 0 20px;
+}
+.foto-profil {
+  width: 100%;
+  height: 500px;
+  background-image: url("/src/assets/profilmuseum.jpg");
+  background-size: 100% 100%; /* Set the background size to cover both width and height */
+  background-position: center; /* Position the background image in the center */
+  background-repeat: no-repeat; /* Ensure the background image is not repeated */
+}
+
+  /*strong.text-profil{
+    font-size: 50px;
+    font-weight: 700;
+    color: #E60A0A;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+    -webkit-text-stroke: 1.5px rgba(251, 177, 177, 0.793);
+  }*/
+  div.profil-museum-inner{
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    margin: 20px;
+    height: 220px;
+    background-color: #e99191;
+    
+  }
+  strong.profiltitle{
+      display: block; /* Membuat elemen strong menjadi blok */
+      text-align: center; /* Menengahkan teks */
+      font-size: 25px;
+      margin-top: -5px; /* Mengangkat teks ke atas sedikit */
+  }
+  div.profil-name{
+    width: 100%;
+    height: 30 0px;
+    background-image: url("/src/assets/red2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+  div.profil-title{
+    margin-bottom: -15px;
+  }
+  h3.title-location {
+  
+     
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 4px solid #b1b1b1;
+    margin-bottom: 30px;
+    Padding-bottom: 10px;
+    margin-top: 10px; /* Mengatur jarak antara border dengan tulisan di atasnya */
+  }
+  strong.main-title-type{
+    font-size: 25px;
+    
+  }
+  h4.title-type{
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+   text-align: center;
+   margin-right: 210px;
+  }
+  strong.main-title-type2{
+    font-size: 25px;
+  }
+  h5.title-type2{
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+   text-align: center;
+   margin-left: 220px;
+   margin-top: -65px;
+  }
+  strong.main-title-pengelola{
+    font-size: 25px;
+  }
+  h6.title-pengelola{
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+   text-align: center;
+   margin-top: 20px;
+  }
+  strong.main-title-pemilik{
+    font-size: 25px;
+  }
+  h7.title-pemilik{
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+  }
+  div.title4{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sejarah,
+  .museum,
+  .koleksi,
+  .visi,
+  .misi,
+  .dinas,
+  .uptd {
+    font-size: 25px;
+    border-bottom: 1px solid #ccc; /* Menambahkan garis tipis di bawah teks */
+    padding-bottom: 5px; /* Memberikan jarak antara teks dan garis */
+    margin-bottom: 10px; /* Memberikan jarak di bawah elemen */
+    width: 100%; /* Menyesuaikan lebar garis dengan panjang teks */
+    display: inline-block; /* Memastikan garis mengikuti lebar konten */
+    text-align: center; /* Membuat teks berada di tengah */
+  }
+  
+  
+  
+  
+  /* Descriptions */
+.history,
+.museumsulut,
+.koleksi-title,
+.visimuseum,
+.misimuseum {
+  font-size: 22px;
+  text-align: justify; /* Menjadikan teks menjadi sama rata kanan dan kiri */
+  margin-bottom: 20px; /* Menambahkan jarak di bawah setiap elemen */
+}
+
+.isi-content > div {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify; /* Opsional, untuk memastikan penjelasan rata kiri dan kanan */
+}
+ .isi-content > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  
+  /* Title containers */
+  .museum-title,
+  .koleksi-title,
+  .visi-title,
+  .misi-title,
+  .struktur-dinas-title,
+  .struktur-uptd-title {
+    margin-top: 15px;
+  }
+  
+  /* Images */
+  img.strukturdinas,
+  img.strukturuptd {
+    width: 100%; /* Lebar gambar 100% dari lebar container */
+    height: auto; /* Menjaga aspek gambar */
+    display: block; /* Menjadikan gambar sebagai blok untuk memastikan tidak bersebelahan dengan judul */
+    margin-top: 15px; /* Memberikan sedikit jarak antara gambar dan judul */
+  
+  
+  }
+  

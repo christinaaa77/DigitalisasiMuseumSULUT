@@ -1,0 +1,35 @@
+/* Ensure the html and body elements take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Main container that holds all content */
+  .container-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure it takes at least the full height of the viewport */
+  }
+  
+  
+  /* Footer fixed at the bottom */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  /* Section to hold the main content and allow it to scroll */
+  .content-section {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Optional: Basic styles for the Navbar and Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
